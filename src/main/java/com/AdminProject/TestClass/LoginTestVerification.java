@@ -37,7 +37,7 @@ public class LoginTestVerification extends BaseClass
 		login.ClickLogginButton();
         test.log(Status.PASS, "Click On LoginBtn  Succesfully");
         
-        Thread.sleep(3000);
+        Thread.sleep(4000);
         String expectedTitle="GTPL Bank Manager HomePag";
 		String actualTitle= driver.getTitle();
 		
